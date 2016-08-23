@@ -23,3 +23,29 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.+'
 }
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'CommonItemLin'
+
+    publishedGroupId = 'com.zq.commonitemlib'
+    libraryName = 'commonitemmoudle'
+    artifact = 'commonitemmoudle'
+
+    libraryDescription = 'a common item'
+
+    siteUrl = 'https://github.com/SolveBugs/CommonItem'
+    gitUrl = 'https://github.com/SolveBugs/CommonItem.git'
+
+    libraryVersion = '1.0.1'
+
+    developerId = 'zq'
+    developerName = 'zq zhen'
+    developerEmail = '18317857586@163.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

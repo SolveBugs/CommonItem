@@ -15,33 +15,33 @@ import android.widget.TextView;
  */
 public class CommonItem1 extends RelativeLayout {
 
-    //左边的icon
+    //left icon
     private Drawable mImg;
 
-    //文字
+    //text
     private String mText;
 
-    //文字颜色
+    //textcolor
     private int mTextColor;
 
-    //文字大小
+    //textsize
     private float mTextSize;
 
-    //item背景颜色
+    //itme background
     private int mBackgroud;
 
-    //布局最右箭头
+    //right
     private Drawable mArrowRes;
-    //根布局
+    //root
     private RelativeLayout mRootView;
 
-    //显示图片icon
+    //img -icon
     private ImageView mImageView;
 
-    //显示家头icon
+    //arrow
     private ImageView mArrow;
 
-    //显示文字
+    //text-img
     private TextView mTextView;
 
     public CommonItem1(Context context) {
@@ -56,7 +56,7 @@ public class CommonItem1 extends RelativeLayout {
     }
 
     /**
-     * 获取自定义属性
+     * get Attrs
      *
      * @param context
      * @param attrs
@@ -109,7 +109,7 @@ public class CommonItem1 extends RelativeLayout {
     }
 
     /**
-     * 初始化界面控件
+     * init views
      *
      * @param context
      */
