@@ -1,4 +1,4 @@
-package demo.zq.com.commonitem.customviews;
+package demo.zq.com.commonitemmoudle;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import demo.zq.com.commonitem.R;
 
 /**
  * Created by zhen on 2016/8/23.

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CommonItem</string>
+    <string name="setting">设置</string>
+    <string name="emoj">表情</string>
+</resources>
