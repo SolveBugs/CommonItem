@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CommonItem1">
+        <attr name="img_item" format="reference" />
+        <attr name="text_item" format="reference" />
+        <attr name="textsize_item" format="reference" />
+        <attr name="textcolor_item" format="reference" />
+        <attr name="background_item" format="reference" />
+        <attr name="arrow_item" format="reference" />
+    </declare-styleable>
+</resources>
