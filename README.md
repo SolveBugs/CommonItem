@@ -25,12 +25,12 @@
      2.在xml中使用：为了代码规范，这里所有的资源需要定义好，以引用的方式来设置
      
      <demo.zq.com.commonitemmoudle.CommonItem1
-             app:arrow_item="@drawable/right"
-             app:background_item="@color/RGB_FFFFFF"
-             app:img_item="@drawable/setting_blue"
-             app:text_item="@string/setting"
-             app:textcolor_item="@color/RGB_000000"
-             app:textsize_item="@dimen/normalsize"
+             app:arrow_item="@drawable/right"       //右边指示图片
+             app:background_item="@color/RGB_FFFFFF"//条目背景颜色
+             app:img_item="@drawable/setting_blue"  //右边图片icon
+             app:text_item="@string/setting"        //右边文字
+             app:textcolor_item="@color/RGB_000000" //文字颜色
+             app:textsize_item="@dimen/normalsize"  //文字大小
              android:layout_width="match_parent"
              android:layout_height="wrap_content"></demo.zq.com.commonitemmoudle.CommonItem1>
              
